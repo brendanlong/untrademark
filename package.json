@@ -1,8 +1,8 @@
 {
-  "name": "decorporatespeak",
-  "title": "decorporatespeak",
+  "name": "untrademark",
+  "title": "untrademark",
   "id": "jid1-GNjRFGdwDHBPTQ",
-  "description": "Replaces corporate-speak with normal words",
+  "description": "Firefox addon which replaces trademarks with normal words",
   "main": "lib/main.js",
   "author": "Brendan Long <self@brendanlong.com>",
   "license": "Unlicense",
