@@ -34,7 +34,7 @@ for (var r = 0; r < self.options.replacements.length; ++r) {
     for (var f = 0; f < regexFunctions.length; ++f) {
         replacements.push([
             new RegExp(regexFunctions[f](find).replace(" ", "\\s"), "g"),
-            regexFunctions[f](replace).replace(" ", "\\s")
+            regexFunctions[f](replace)
         ]);
     }
 }
