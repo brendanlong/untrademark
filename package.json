@@ -1,0 +1,18 @@
+{
+  "name": "decorporatespeak",
+  "title": "decorporatespeak",
+  "id": "jid1-GNjRFGdwDHBPTQ",
+  "description": "Replaces corporate-speak with normal words",
+  "main": "lib/main.js",
+  "author": "Brendan Long <self@brendanlong.com>",
+  "license": "Unlicense",
+  "version": "0.1.0",
+  "devDependencies": {
+    "jpm": "^1.0.0",
+    "jshint": "^2.6.3"
+  },
+  "scripts": {
+    "pretest": "jshint lib data test",
+    "test": "cfx test"
+  }
+}
